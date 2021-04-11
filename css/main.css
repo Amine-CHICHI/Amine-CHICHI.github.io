@@ -412,7 +412,7 @@ main#home h1 {
     height: 130px;
   }
   ul.menu-nav {
-    height: 100%;
+    height: 75vh;
     font-size: 1.5rem;
     transform: translate3d(0, 100%, 0);
     background: rgba(45, 45, 45, 0.9);
