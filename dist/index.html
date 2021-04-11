@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To My Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,700&family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+
+<body id="bg-img">
+    <div id="particles-js"></div>
+    <header>
+        <div class="menu-btn">
+            <div class="menu-btn-line"></div>
+            <div class="menu-btn-line"></div>
+            <div class="menu-btn-line"></div>
+        </div>
+        <nav class="menu">
+            <div class="menu-branding">
+                <!-- <div class="portrait"></div> -->
+                <img src="../assets/Profile_Pic.jpg" alt="Amine chichi" class="portrait" />
+            </div>
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="work.html" class="nav-link">My projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">How to reach me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <h1 class="lg-heading">
+            AMINE <span class="text-secondary">CHICHI</span>
+        </h1>
+        <h2 class="sm-heading">Future Software Engineer</h2>
+        <div class="icons">
+            <div class="social-icon">
+                <a href="https://www.facebook.com/amine.chichi/" target="_blank"> <i class="fab fa-facebook-square fa-2x"></i></a>
+            </div>
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/amine-chichi-326580193/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+            <div class="social-icon">
+                <a href="https://github.com/Amine-CHICHI" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+            </div>
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load("particles-js", "js/particles.json", function() {
+            console.log("callback - particles.js config loaded");
+        });
+    </script>
+</body>
+
+</html>

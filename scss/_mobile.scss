@@ -1,0 +1,111 @@
+// Widescreen
+@include mediaXl {
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+// Desktops and laptops
+@include mediaLg {
+    // main {
+    //     padding: 2rem;
+    // }
+    // .about-info {
+    //     gap: 3vw;
+    // }
+    .projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+// Tablests  and small laptops
+@include mediaMd {
+    header {
+        position: static;
+    }
+    // main {
+    //     display: flex;
+    //     flex-flow: column wrap;
+    //     align-items: center;
+    //     text-align: center;
+    //     text-transform: capitalize;
+    // }
+    main {
+        align-items: center;
+        text-align: center;
+        .lg-heading {
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+    }
+    ul.menu-nav,
+    div.menu-branding {
+        float: none;
+        width: 100%;
+        min-height: 0;
+        &.show {
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    div.menu-branding {
+        height: 25vh;
+        .portrait {
+            width: 130px;
+            height: 130px;
+        }
+        transform: translate3d(100%, 0, 0);
+    }
+    ul.menu-nav {
+        height: 75vh;
+        font-size: 1.5rem;
+        transform: translate3d(0, 100%, 0);
+        background: darken(rgba($primary_color, $overlay-opacity), 9);
+    }
+    // .about-info {
+    //     // grid-template-areas: "bio-image" "bio" "job1" "job2" "job3";
+    //     // grid-template-columns: auto;
+    // }
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+// Smartphones
+@include mediaSm {
+    header {
+        position: static;
+    }
+    main#about {
+        padding: 4rem 2rem;
+        .bio {
+            p {
+                font-size: 1rem;
+            }
+        }
+        .job {
+            margin-bottom: 1rem;
+        }
+    }
+    main h1 {
+        font-size: 3rem !important;
+    }
+    main h2 {
+        font-size: 1.3rem !important;
+    }
+    .menu {
+        .menu-branding {
+            .portrait {
+                height: 130px;
+                width: 130px;
+            }
+        }
+        .menu-nav {
+            .nav-link {
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .projects {
+        grid-template-columns: 1fr;
+    }
+}
