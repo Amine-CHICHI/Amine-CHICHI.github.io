@@ -23,13 +23,11 @@
     header {
         position: static;
     }
-    // main {
-    //     display: flex;
-    //     flex-flow: column wrap;
-    //     align-items: center;
-    //     text-align: center;
-    //     text-transform: capitalize;
-    // }
+    main#home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     main {
         align-items: center;
         text-align: center;
