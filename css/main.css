@@ -144,6 +144,7 @@ body#bg-img {
   background: url(/assets/background.jpg);
   background-size: cover;
   background-attachment: fixed;
+  overflow-y: hidden;
 }
 
 body#bg-img::after {
