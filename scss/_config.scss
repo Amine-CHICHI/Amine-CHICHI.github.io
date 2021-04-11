@@ -35,6 +35,7 @@ $overlay-opacity: 0.9;
             background: $home-image;
             background-size: cover;
             background-attachment: fixed;
+            overflow-y: hidden;
             &::after {
                 content: "";
                 position: absolute;
