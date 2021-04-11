@@ -61,12 +61,18 @@
         transform: translate3d(0, 100%, 0);
         background: darken(rgba($primary_color, $overlay-opacity), 9);
     }
-    // .about-info {
-    //     // grid-template-areas: "bio-image" "bio" "job1" "job2" "job3";
-    //     // grid-template-columns: auto;
-    // }
+    .about-info {
+        grid-template-areas: "bio-image" "bio" "job1" "job2" "job3";
+        grid-template-columns: auto;
+    }
     .projects {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .boxes {
+        .box {
+            font-size: 1rem;
+            margin-bottom: 3rem;
+        }
     }
 }
 
