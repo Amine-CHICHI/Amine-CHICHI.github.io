@@ -134,7 +134,7 @@
 
 body {
   background: #444;
-  height: 100%;
+  height: 100vh;
   color: #fff;
   line-height: 1.5;
   margin: 0;
@@ -184,7 +184,7 @@ a {
 
 #particles-js {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   position: fixed;
   z-index: -10;
   top: 0;
