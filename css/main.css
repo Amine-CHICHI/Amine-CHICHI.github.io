@@ -52,7 +52,7 @@
 }
 
 .menu-nav {
-  background: rgba(45, 45, 45, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   transform: translate3d(0, -100%, 0);
   list-style: none;
   transition: all 0.25s ease-in-out;
@@ -63,7 +63,7 @@
 }
 
 .menu-branding {
-  background: rgba(68, 68, 68, 0.9);
+  background: rgba(26, 26, 26, 0.9);
   transform: translate3d(-100%, 0, 0);
   transition: all 0.25s ease-in-out;
 }
@@ -76,7 +76,7 @@
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  border: 4px solid #6638f1;
+  border: 4px solid #00A2E2;
 }
 
 .menu .nav-item {
@@ -89,7 +89,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #6638f1;
+  color: #00A2E2;
   font-size: 2.5rem;
 }
 
@@ -107,7 +107,7 @@
 }
 
 .menu .nav-link:hover {
-  color: #6638f1 !important;
+  color: #00A2E2 !important;
 }
 
 .nav-item:nth-child(1) {
@@ -133,7 +133,7 @@
 }
 
 body {
-  background: #444;
+  background: #000000;
   height: 100vh;
   color: #fff;
   line-height: 1.5;
@@ -154,7 +154,7 @@ body#bg-img::after {
   left: 0;
   height: 100vh;
   width: 100%;
-  background: rgba(68, 68, 68, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   z-index: -11;
 }
 
@@ -175,7 +175,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(73, 73, 73, 0.5);
+  background: rgba(64, 64, 64, 0.5);
 }
 
 a {
@@ -200,7 +200,7 @@ header {
 }
 
 .text-secondary {
-  color: #6638f1;
+  color: #00A2E2;
 }
 
 main {
@@ -222,7 +222,7 @@ main .icons .social-icon {
 }
 
 main .icons .social-icon a:hover {
-  color: #6638f1 !important;
+  color: #00A2E2 !important;
   transition: all 0.25s ease-in-out;
 }
 
@@ -243,7 +243,7 @@ main#home {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 4px solid #6638f1;
+  border: 4px solid #00A2E2;
 }
 
 .about-info .bio {
@@ -270,12 +270,12 @@ main#home {
 
 .about-info .job {
   padding: 0.5rem;
-  background-color: #515151;
-  border-bottom: 5px solid #6638f1;
+  background-color: #1a1a1a;
+  border-bottom: 5px solid #00A2E2;
 }
 
 .about-info .job h3 {
-  color: #8b68f4;
+  color: #16bdff;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: rem;
@@ -307,22 +307,22 @@ main#home {
 }
 
 .projects .btn-light {
-  background: #c4c4c4;
+  background: gray;
   color: #333;
 }
 
 .projects .btn-light:hover {
-  background: #6638f1;
+  background: #00A2E2;
   color: whitesmoke;
 }
 
 .projects .btn-dark {
-  background: black;
+  background: #333333;
   color: white;
 }
 
 .projects .btn-dark:hover {
-  background: #6638f1;
+  background: #00A2E2;
   color: whitesmoke;
 }
 
@@ -345,11 +345,11 @@ main#home {
 
 .boxes .box span {
   font-weight: 400;
-  color: #7850f3;
+  color: #00b4fc;
 }
 
 .boxes .box:hover {
-  background: #6638f1;
+  background: #00A2E2;
   padding: 1rem 2rem;
   color: #fff;
 }
@@ -362,7 +362,7 @@ main#home {
 #main-footer {
   height: 60px;
   text-align: center;
-  background: #2b2b2b;
+  background: #000000;
   color: #fff;
   padding: 1rem;
 }
@@ -417,7 +417,7 @@ main#home {
     height: 75vh;
     font-size: 1.5rem;
     transform: translate3d(0, 100%, 0);
-    background: rgba(45, 45, 45, 0.9);
+    background: rgba(0, 0, 0, 0.9);
   }
   .about-info {
     grid-template-areas: "bio-image" "bio" "job1" "job2" "job3";
